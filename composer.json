@@ -1,0 +1,21 @@
+{
+    "name": "n-common/tools",
+    "description": "A collection of objects with static methods to perform routine tasks such as string and date/time manipulations",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Adam Lenda",
+            "email": "adamlenda@gmail.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {
+        "php": ">=5.6.0"
+    },
+    "autoload": {
+        "psr-0": {
+            "NCommon": "src/"
+        }
+    }
+}
